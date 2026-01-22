@@ -1,0 +1,7 @@
+Name: Anjolaoluwa Adekomi
+Matric Number: 22CH031976
+
+Machine Learning Algorithm Used: Random Forest Classifier  
+Model Persistence Method Used: Joblib  
+Live URL: https://your-render-link.onrender.com  
+GitHub Repository: https://github.com/yourusername/WineCultivar_Project

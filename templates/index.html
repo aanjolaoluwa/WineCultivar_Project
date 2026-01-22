@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wine Cultivar Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Wine Cultivar Prediction</h2>
+
+        <form method="POST">
+            <input name="alcohol" placeholder="Alcohol" required>
+            <input name="malic_acid" placeholder="Malic Acid" required>
+            <input name="ash" placeholder="Ash" required>
+            <input name="magnesium" placeholder="Magnesium" required>
+            <input name="flavanoids" placeholder="Flavanoids" required>
+            <input name="proline" placeholder="Proline" required>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if prediction %}
+            <h3>Predicted Origin: {{ prediction }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
+
